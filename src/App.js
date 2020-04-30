@@ -1,24 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
+import 'materialize-css/dist/css/materialize.min.css';
+import Test from './components/Test'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Test de prueba
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Misty Blunch 
-        </a>
       </header>
+      <Test />
     </div>
   );
 }
