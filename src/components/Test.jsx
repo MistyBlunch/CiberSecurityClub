@@ -11,7 +11,7 @@ function Test() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Test Page
+          ahora lo cambio
         </a>
       </header>
     </div>

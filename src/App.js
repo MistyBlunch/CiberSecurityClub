@@ -1,6 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './CS_logo.jpeg';
 import './App.css';
+
+import 'materialize-css/dist/css/materialize.min.css'
 
 function App() {
   return (
@@ -8,7 +10,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Test de prueba
+          Hola bb como te va?
         </p>
         <a
           className="App-link"
@@ -16,7 +18,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Misty Blunch 
+          este es un link no? 
         </a>
       </header>
     </div>
