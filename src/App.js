@@ -1,17 +1,13 @@
 import React from 'react';
 import 'materialize-css/dist/css/materialize.min.css';
-import Test from './components/Test'
 import './App.css';
+import Parallax from "./components/Parallax";
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Test de prueba
-        </p>
-      </header>
-      <Test />
+      <Parallax />
     </div>
   );
 }
