@@ -1,44 +1,56 @@
-import React, {useEffect} from 'react';
+import React, {useEffect, Component} from 'react';
 import M from 'materialize-css';
-import img1 from "./images/img2.jpg";
-import img2 from "./images/img3.png";
+import 'materialize-css/dist/css/materialize.min.css'
+import img1 from "./images/origin1.png";
+import img2 from "./images/origin2.png";
+import img3 from "./images/origin3.png";
 
 
 const Parallax = () => {
-    useEffect(() =>{
-        let elements = document.querySelectorAll(".parallax");
-        M.Parallax.init(elements);
-    },[]);
+
+    document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.slider');
+    var instances = M.Slider.init(elems, { interval: 30000});
+  });
+
 
     return (
         <div>
-            <div className="parallax-container">
-                <div className="parallax">
-                    <img src={img1} alt="paralax_1"  />
-                </div>
-            <div className="section white">
-                <h2> CyberSecurity Club </h2>
-                <p> Mejor comunidad de ciberseguridad en el Perú </p>
+            <div className="slider fullscreen">
+                <ul className="slides">
+                    <li>
+                        <img src={img1}  />
+                            <div className="caption align-center">
+                               <h1 className="header center text-lighten-2" style={{ color: 'white' }}>
+                                Cybersecurity Club<br /> is a student  organization<br/>
+                                at the UTEC university
+                            </h1>
+                            </div>
+                    </li>
+                    <li>
+                        <img src={img2} />
+                            <div className="caption ">
+                               <h1 className="header center text-lighten-2" style={{ color: 'white' }}>
+                                Cybersecurity Club<br /> is a student  organization<br/>
+                                at the UTEC university
+                            </h1>
+                            </div>
+                    </li>
+                    <li>
+                        <img src={img3} alt="hello"/>
+                            <div className="caption ">
+                                <h1 className="header center text-lighten-2" style={{ color: 'white' }}>
+                                Cybersecurity Club<br /> is a student  organization<br/>
+                                at the UTEC university
+                            </h1>
+                            </div>
+                    </li>
+                </ul>
             </div>
-            </div>
-            <div className="parallax-container">
-                <div className="parallax">
-                    <img src={img1} alt="paralax_2" />
-                </div>
-                <div className="section white">
-                    <h2> Best club  </h2>
-                    <p> By Humbert Bernal</p>
-                </div>
-             </div>
-            <div className="section white">
-                <div className="row container">
-                    <h2 className="header">Parallax</h2>
-                    <p className="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content
-                        or image in this case, is moved at a different speed than the foreground content while
-                        scrolling.</p>
-                </div>
-            </div>
+
         </div>
+
+
     );
 };
 
