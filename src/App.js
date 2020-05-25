@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './CS_logo.jpeg';
+import logo from './img/Logo Circular.svg';
 import './App.css';
 
 import 'materialize-css/dist/css/materialize.min.css'
