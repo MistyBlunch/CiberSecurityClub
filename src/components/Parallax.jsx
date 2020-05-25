@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
 import M from 'materialize-css';
-import img1 from "./images/img1.jpg";
-import img2 from "./images/img2.jpg";
+import img1 from "./images/img2.jpg";
+import img2 from "./images/img3.png";
 
 
 const Parallax = () => {
@@ -14,7 +14,7 @@ const Parallax = () => {
         <div>
             <div className="parallax-container">
                 <div className="parallax">
-                    <img src={img2} alt="paralax_1"  />
+                    <img src={img1} alt="paralax_1"  />
                 </div>
             <div className="section white">
                 <h2> CyberSecurity Club </h2>
@@ -23,10 +23,10 @@ const Parallax = () => {
             </div>
             <div className="parallax-container">
                 <div className="parallax">
-                    <img src={img2} alt="paralax_2" />
+                    <img src={img1} alt="paralax_2" />
                 </div>
                 <div className="section white">
-                    <h2> coranzoncito  </h2>
+                    <h2> Best club  </h2>
                     <p> By Humbert Bernal</p>
                 </div>
              </div>
