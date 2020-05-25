@@ -1,26 +1,15 @@
 import React from 'react';
-import logo from './img/Logo Circular.svg';
+import Test from './components/Test';
+import NavBar from './components/NavBar/NavBar';
 import './App.css';
 
-import 'materialize-css/dist/css/materialize.min.css'
+import 'materialize-css/dist/css/materialize.min.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hola bb como te va?
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          este es un link no? 
-        </a>
-      </header>
+      <NavBar/>
+      <Test/>
     </div>
   );
 }

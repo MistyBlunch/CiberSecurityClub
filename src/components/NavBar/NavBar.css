@@ -1,0 +1,9 @@
+/* Color Text */
+nav .brand-logo.cs-red {
+  color: #ED1C24;
+}
+
+/* Hepers */
+.no-abs {
+  position: relative !important;
+}
