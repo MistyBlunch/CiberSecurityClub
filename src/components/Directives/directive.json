@@ -1,0 +1,57 @@
+[
+    {
+        "id" : 0,
+        "name" : "Directiva Web",
+        "mision" : "Crear la página del Club y atacarnos para identificar posibles vulnerabilidades, manejarlas y aprender de ello.",
+        "vision" : "Tener una página completa con varias funcionalidades como un blog en donde se suba contenido constantemente, como solucionarios, tutoriales, entre otros. También manejar la seguridad de la web por completo, encontrar vulnerabilidades y parcharlas.",
+        "schedule" : "Domingos: 5:00 p.m"
+    },
+
+    {
+        "id" : 1,
+        "name" : "Directiva Workshop",
+        "mision" : "Dictar workshops de herramientas indispensables en la carrera de CS a los nuevos ingresantes.",
+        "vision" : "Diseñar multiples workshop, no solo orientado a herramientas indispensables, que puedan dictarse a personas ajenas a UTEC y tambien puedan encontrarse en nuestra pagina web.",
+        "schedule" : "Domingos: 5:00 p.m"
+    },
+
+    {
+        "id" : 2,
+        "name" : "Directiva Sabatino",
+        "mision" : "Los nuevos ingresantes al club puedan conocer los temas pilares en ciberseguridad.",
+        "vision" : "Lograr que los miembros del club puedan decidir cual es el tema que más les interesa y puedan comenzar a participar en la rama de competitiva o proyecto.",
+        "schedule" : "Domingos: 5:00 p.m"
+    },
+
+    {
+        "id" : 3,
+        "name" : "Directiva Pentesting",
+        "mision" : "Estudiar diversos metodos de pentesting y ponerlos en practica de manera de manera progresiva para incrementar nuestras habilidades.",
+        "vision" : "Participar activamente en ataque a maquinas y encontrarnos en los 25 primeros puestos en competencias como HackTheBox.",
+        "schedule" : "Domingos: 5:00 p.m"
+    },
+
+    {
+        "id" : 4,
+        "name" : "Directiva Competitiva",
+        "mision" : "Participar en comeptencias de CTF's para mejorar habilidades especificas en ciberseguridad.",
+        "vision" : "Encontrarnos entre los 50 mejores equipos participantes en CTF's importantes como Googe CTF, HackTM, Facebook CTF, etc.",
+        "schedule" : "Domingos: 5:00 p.m"
+    },
+
+    {
+        "id" : 5,
+        "name" : "Directiva Marketing",
+        "mision" : "",
+        "vision" : "",
+        "schedule" : "Domingos: 5:00 p.m"
+    },
+
+    {
+        "id" : 6,
+        "name" : "Directiva Research",
+        "mision" : "Leer, entender y analizar papers de las ultimas investigaciones de ciberseguridad en el mundo",
+        "vision" : "Aplicar lo aprendido de los papers en proyectos y comenzar la redacción de un paper por alumnos del club.",
+        "schedule" : "Domingos: 5:00 p.m"
+    }
+]

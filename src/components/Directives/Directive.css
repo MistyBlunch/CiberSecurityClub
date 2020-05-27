@@ -1,0 +1,34 @@
+.Directive-post {
+    max-width: 20rem;
+    max-height: 30rem;
+    padding: 5rem;
+    background-color: #062325;
+    box-shadow: 0 1.4rem 8rem rbga(0, 0, 0, .2);
+    display: flex;
+    align-items: center;
+}
+
+.Directive-post-info {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.Directive-post-title {
+    font-size: 2.5rem;
+    margin: 1.5rem 0 2rem;
+    text-transform: uppercase;
+    color: #ADF11C;
+
+}
+
+.Directive-post-text {
+    margin-bottom: 3rem;
+    font-size: 1.4rem;
+    color: white;
+}
+
+.Directive-post-date {
+    margin-bottom: 3rem;
+    font-size: 1.4rem;
+    color: #ADF11C;
+}
