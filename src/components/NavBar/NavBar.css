@@ -3,7 +3,26 @@ nav .brand-logo.cs-red {
   color: #ED1C24;
 }
 
+.cs-green{
+  color: #00FF00;
+}
+
+.margen{
+	margin: 0 2em 0 1em;
+}
+
+.iconSize{
+	width:30px;
+	height:30px;
+	margin: 1em 0 0 1em;
+}
+
+.backgroundColor{
+	background-color: transparent;
+}
+
 /* Hepers */
 .no-abs {
   position: relative !important;
+
 }
