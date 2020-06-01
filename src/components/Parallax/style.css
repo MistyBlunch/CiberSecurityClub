@@ -1,0 +1,13 @@
+.csec-princ-slider img{
+  filter: brightness(0.4);
+}
+
+.csec-princ-slider div.caption.csec-caption {
+  top: 40%;
+  margin-top: -70px;
+}
+
+.csec-princ-slider .indicators .indicator-item {
+  height: 12px;
+  width: 12px;
+}
