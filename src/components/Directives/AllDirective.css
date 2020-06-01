@@ -1,26 +1,12 @@
-.Direct {
+.Directives {
     display: grid;
-    grid-template-columns: auto auto;
-    width: 100rem;
-    height: 100rem;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    height: auto;
+    width: 90%;
 }
 
 .Directive-item {
-    border: 10px solid white;
-}
-
-.Directive-post-img {
-    min-width: 10rem;
-    max-width: 20rem;
-    height: 30rem;
-    position: relative;
-    float: left;
-    transform: translateY(5rem);
-}
-
-.Directive-post-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
+    display: flex;
+    align-items: center;
 }
