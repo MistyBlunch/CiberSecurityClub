@@ -3,7 +3,7 @@ import './Directive.css'
 
 export default function Directive(props) {
     return (
-        <div>
+        <div className="Directive-post-div">
             <div className="Directive-post-img">
                 <img src={require("" + props.img)} alt=""/>
             </div>

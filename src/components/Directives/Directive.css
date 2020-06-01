@@ -1,9 +1,16 @@
+.Directive-post-div {
+    display: flex;
+    align-items: center;
+}
+
 .Directive-post-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: flex;
     align-items: center;
+    position: relative;
+    transform: translateX(4px);
 }
 
 .Directive-post-img::before {
@@ -43,21 +50,3 @@
 .Directive-post-date {
     color: #ADF11C;
 }
-
-/*
-.Directive-post-img {
-    min-width: 10rem;
-    max-width: 20rem;
-    height: 30rem;
-    position: relative;
-    float: left;
-    transform: translateY(5rem);
-}
-
-.Directive-post-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-}
-*/
