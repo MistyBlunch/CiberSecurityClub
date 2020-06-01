@@ -1,6 +1,6 @@
 import React from 'react';
 import Test from './components/Test';
-import NavBar from './components/NavBar/NavBar';
+import NavBar from './components/NavBar/index';
 import './App.css';
 
 import 'materialize-css/dist/css/materialize.min.css';
@@ -15,3 +15,4 @@ function App() {
 }
 
 export default App;
+// 

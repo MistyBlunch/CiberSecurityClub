@@ -1,7 +1,7 @@
 import React from 'react';
-import './NavBar.css';
-import './navbarjs.js';
-import logo from './../../img/Mariquita.svg'
+import './style.css';
+import './main.js';
+import logo from './img/Mariquita.svg'
 
 function NavBar(){
 		return(
