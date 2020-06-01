@@ -11,7 +11,7 @@
     {
         "id" : 1,
         "name" : "Directiva Workshop",
-        "img" : "img/template.png",
+        "img" : "template.png",
         "mision" : "Dictar workshops de herramientas indispensables en la carrera de CS a los nuevos ingresantes.",
         "vision" : "Diseñar multiples workshop, no solo orientado a herramientas indispensables, que puedan dictarse a personas ajenas a UTEC y tambien puedan encontrarse en nuestra pagina web.",
         "schedule" : "Domingos: 5:00 p.m"
@@ -20,7 +20,7 @@
     {
         "id" : 2,
         "name" : "Directiva Sabatino",
-        "img" : "img/template.png",
+        "img" : "template.png",
         "mision" : "Los nuevos ingresantes al club puedan conocer los temas pilares en ciberseguridad.",
         "vision" : "Lograr que los miembros del club puedan decidir cual es el tema que más les interesa y puedan comenzar a participar en la rama de competitiva o proyecto.",
         "schedule" : "Domingos: 5:00 p.m"
@@ -29,7 +29,7 @@
     {
         "id" : 3,
         "name" : "Directiva Pentesting",
-        "img" : "img/template.png",
+        "img" : "template.png",
         "mision" : "Estudiar diversos metodos de pentesting y ponerlos en practica de manera de manera progresiva para incrementar nuestras habilidades.",
         "vision" : "Participar activamente en ataque a maquinas y encontrarnos en los 25 primeros puestos en competencias como HackTheBox.",
         "schedule" : "Domingos: 5:00 p.m"
@@ -38,7 +38,7 @@
     {
         "id" : 4,
         "name" : "Directiva Competitiva",
-        "img" : "img/template.png",
+        "img" : "template.png",
         "mision" : "Participar en comeptencias de CTF's para mejorar habilidades especificas en ciberseguridad.",
         "vision" : "Encontrarnos entre los 50 mejores equipos participantes en CTF's importantes como Googe CTF, HackTM, Facebook CTF, etc.",
         "schedule" : "Domingos: 5:00 p.m"
@@ -47,7 +47,7 @@
     {
         "id" : 5,
         "name" : "Directiva Marketing",
-        "img" : "img/template.png",
+        "img" : "template.png",
         "mision" : "",
         "vision" : "",
         "schedule" : "Domingos: 5:00 p.m"
@@ -56,7 +56,7 @@
     {
         "id" : 6,
         "name" : "Directiva Research",
-        "img" : "img/template.png",
+        "img" : "template.png",
         "mision" : "Leer, entender y analizar papers de las ultimas investigaciones de ciberseguridad en el mundo",
         "vision" : "Aplicar lo aprendido de los papers en proyectos y comenzar la redacción de un paper por alumnos del club.",
         "schedule" : "Domingos: 5:00 p.m"

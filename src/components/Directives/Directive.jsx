@@ -2,12 +2,10 @@ import React from 'react';
 import './Directive.css'
 
 export default function Directive(props) {
-    //const image = require(props.img);
-
     return (
         <div>
             <div className="Directive-post-img">
-                <img src={`${props.img}`} alt=""/>
+                <img src={require("" + props.img)} alt=""/>
             </div>
             <div className="Directive-post">
                 <div className="Directive-post-info">
