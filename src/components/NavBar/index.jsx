@@ -9,8 +9,8 @@ function NavBar(){
 		<nav className="backgroundColor">
 			<div className="nav-wrapper backgroundColor">
 			<div className="margen">
-				<img src={logo} alt="logo" className="left iconSize"/>
-				<a href="#!" className="brand-logo no-abs left">CyberSecurity Club</a>
+				<img src={logo} alt="logo" className="iconSize left"/>
+				<a href="#!" className="brand-logo no-abs">CyberSecurity Club</a>
 				<a href="#!" data-target="mobile-demo" className="sidenav-trigger right"><i className="material-icons">menu</i></a>
 				<ul className="right hide-on-med-and-down">
 					<li className="active"><a href="#!">Directives</a></li>
