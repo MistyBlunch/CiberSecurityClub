@@ -9,11 +9,19 @@ function Contact(){
 			<div className="container-flag">
 				<img  className="logo" src={logo} alt="CyberSecurity Flag"/>
 				<div className="contact">
-					<ul>
-						<li>Email ➡ <a href="https://www.google.com" target="_blank">cybersecurity@utec.edu.pe</a></li>
-						<li>Instagram ➡ <a href="https://www.google.com" target="_blank">cybersecurity.utec</a></li>
-						<li>Faceblook ➡ <a href="https://www.google.com" target="_blank">Ciberseguridad Utec</a></li>
-					</ul>
+					<div className="grid">
+						<spam>Email</spam>
+						<spam>➡ </spam>
+                        <spam><a href="https://www.google.com" target="_blank">cybersecurity@utec.edu.pe</a></spam>
+
+						<spam>Instagram</spam>
+						<spam>➡ </spam>
+						<spam><a href="https://www.google.com" target="_blank">cybersecurity.utec</a></spam>
+
+						<spam>Faceblook</spam>
+						<spam>➡ </spam>
+						<spam><a href="https://www.google.com" target="_blank">Ciberseguridad Utec</a></spam>
+					</div>
 				</div>
 			</div>
 	</div>

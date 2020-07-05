@@ -18,15 +18,10 @@
 	box-shadow: 5px 5px 10px black;
 	display: inline-block;
 	padding: 10px 30px;
-	font-size: 24px;
-/*	margin: 50px;*/
+	font-size: 20px;
 	border-radius: 10px;
 	position: absolute;
  	bottom:0;
-/*
-	left:0;
-	top:0;
-*/
 	right:0;
 }
 .contact a{
@@ -39,3 +34,17 @@
 	-webkit-transform: rotate(-10.41deg)
 }
 
+.grid{
+    display: grid;
+
+    grid-template-columns: auto auto auto;
+
+    grid-gap: 10px;
+
+    padding: 10px;
+}
+/*
+.grid spam {
+    text-align: left;
+}
+*/
