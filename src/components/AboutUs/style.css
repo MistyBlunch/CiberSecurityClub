@@ -1,0 +1,39 @@
+* {
+    text-align: center;
+    font-family: fira-code;
+    font-weight: bolder;
+    padding: 5px;  
+    color: white;
+    background: black;
+}
+
+.AboutUs {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    height: auto;
+    width: 90%;
+}
+
+.Title {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.Research {
+    grid-row-start: 2;
+}
+
+.Promote {
+    grid-row-start: 2;
+}
+
+.Founder {
+    grid-row-start: 2;
+}
+
+@media screen and (max-width: 920px){
+    .AboutUs {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
