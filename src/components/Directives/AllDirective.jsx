@@ -8,12 +8,14 @@ export default function AllDirective() {
   const path = './img/';
 
   return (
-    <div className="Directives">
+    <div className="container">
+      <div className="Directives">
         {directives.map(e => 
           <div key={e.id} className="Directive-item">
-            <Directive name={e.name} img={path + e.img} mision={e.mision} vision={e.vision} schedule={e.schedule}/>
+          <Directive name={e.name} img={path + e.img} content={e.content} schedule={e.schedule}/>
           </div>)
         }
+      </div>
     </div>
   );
 }
