@@ -1,14 +1,70 @@
-/* Color Text */
-.margen{
-	margin: 0 2em 0 1em;
+.csec.navbar-fixed {
+	height: 10vh;
+}
+
+.csec.nav-wrapper {
+	margin: 0 2rem;
+}
+
+.csec.nav-wrapper .hide-on-med-and-down li:last-child a{
+	padding-right: 0;
 }
 
 .iconSize{
-	width:30px;
-	height:30px;
-	margin: 1em 0 0 1em;
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+	margin-right: .2rem;
 }
 
-.backgroundColor{
+.csec.navbar-fixed nav{
 	background-color: black;
+	height: 10vh;
+}
+
+/* Edit hamburger menu*/
+.csec .sidenav {
+	background-color: #000000;
+	border-right: 1px solid #ffffff	;
+}
+
+.csec .sidenav li {
+	padding: 0 1.2rem;
+}
+
+.csec .sidenav li a {
+	color: #ffffff;
+	padding: 0;
+}
+
+.sidenav-overlay {
+	opacity: 0;
+}
+
+@media only screen and (max-width: 992px) {
+	.csec .brand-logo {
+		left: 0;
+    transform: translateX(0);
+    left: 2.3rem;
+	}
+	
+	.csec .sidenav-trigger {
+		margin-right: 0;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.csec.nav-wrapper {
+		margin: 0 1rem;
+	}
+
+	.csec .brand-logo {
+		font-size: 22px;
+		left: 1.7rem;
+	}
+
+	.iconSize {
+		width: 20px;
+		height: 20px;
+	}
 }

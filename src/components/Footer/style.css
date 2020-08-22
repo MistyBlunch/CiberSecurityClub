@@ -1,0 +1,53 @@
+.csec.page-footer {
+	height: 10vh;
+	padding: 0;
+	background-color: rgb(0, 0, 0);
+	display: flex;
+	align-items: center;
+}
+
+.csec .footer-copyright {
+	width: 100%;
+	margin: 0 2rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.csec .footer-copyright h6 {
+	font-size: 15px;
+}
+
+.csec .footer-text {
+	margin: 0;
+}
+
+.csec.page-footer .sm-contact, .csec.page-footer .sm-contact a {
+	display: inline-flex;
+	align-items: center;
+}
+
+.csec.page-footer .sm-contact img:first-child {
+	margin-right: 1en;
+}
+
+@media only screen and (max-width: 992px) {
+	.csec.page-footer .sm-contact img {
+		width: 20px;
+		height: 20px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.csec .footer-copyright {
+		margin: 0 1rem;
+	}
+
+	.csec .footer-copyright h6 {
+		font-size: 13px;
+	}
+
+	.csec.page-footer .sm-contact img {
+		width: 18px;
+		height: 18px;
+	}
+}
