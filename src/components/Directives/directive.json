@@ -1,0 +1,49 @@
+[
+  {
+    "id" : 0,
+    "name" : "Directiva Pentesting",
+    "img" : "pentesting.svg",
+    "content" : "Entrenamos todos los domingos para Google, DEFOM CTF, Facebook CTF y más",
+    "schedule" : "Domingos: 5:00 p.m"
+  },
+
+  {
+    "id" : 1,
+    "name" : "Directiva Competitiva",
+    "img" : "competitiva.svg",
+    "content" : "Entrenamos todos los domingos para Google, DEFOM CTF, Facebook CTF y más",
+    "schedule" : "Domingos: 5:00 p.m"
+  },
+
+  {
+    "id" : 2,
+    "name" : "Directiva Web",
+    "img" : "web.svg",
+    "content" : "Entrenamos todos los domingos para Google, DEFOM CTF, Facebook CTF y más",
+    "schedule" : "Domingos: 5:00 p.m"
+  },
+
+  {
+    "id" : 3,
+    "name" : "Directiva Análisis de Malware",
+    "img" : "analisis_malware.svg",
+    "content" : "Entrenamos todos los domingos para Google, DEFOM CTF, Facebook CTF y más",
+    "schedule" : "Domingos: 5:00 p.m"
+  },
+
+  {
+    "id" : 4,
+    "name" : "Directiva Estrategia y Políticas",
+    "img" : "politicas.svg",
+    "content" : "Entrenamos todos los domingos para Google, DEFOM CTF, Facebook CTF y más",
+    "schedule" : "Domingos: 5:00 p.m"
+  },
+
+  {
+    "id" : 5,
+    "name" : "Directiva Marketing",
+    "img" : "marketing.svg",
+    "content" : "Entrenamos todos los domingos para Google, DEFOM CTF, Facebook CTF y más",
+    "schedule" : "Domingos: 5:00 p.m"
+  }
+]

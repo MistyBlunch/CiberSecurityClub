@@ -1,0 +1,69 @@
+.Directive-post-div {
+  display: flex;
+  align-items: center;
+}
+
+.Directive-post-img {
+  width: 70%;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-right: -30px;
+}
+
+.Directive-post-img img {
+  width: 132px;
+}
+
+.Directive-post {
+  width: 100%;
+  max-width: 200px;
+  padding: 1rem 3rem;
+  background-color: #274A4B;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.Directive-post-info {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.Directive-post-title {
+  margin: 1rem 0 1.3rem;
+  text-transform: uppercase;
+  color: #32B6B1;
+}
+
+.Directive-post-text {
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.Directive-post-date {
+  color: #32B6B1;
+}
+
+@media (max-width: 600px) {
+  .Directive-post {
+    padding: .8rem 1rem;
+  }
+
+  .Directive-post-img img {
+    width: 100px;
+  }
+
+  .Directive-post-title {
+    font-size: 18px;
+  }
+
+  .Directive-post-text {
+    font-size: 14px;
+  }
+
+  .Directive-post-img {
+    margin-right: -40px;
+  }
+}
