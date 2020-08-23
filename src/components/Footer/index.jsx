@@ -11,10 +11,10 @@ function Footer() {
 					© 2020 | CyberSecurity Club UTEC, all rights reserved.
 				</h6>
 				<div className="sm-contact">
-					<a href="https://www.instagram.com/p/CAf0bEbHdml/" rel="nofollow" target="_blank">
+					<a href="https://www.instagram.com/p/CAf0bEbHdml/" rel="noopener noreferrer" target="_blank">
 						<img src={ig} alt="instagram-logo"/>
 					</a>
-					<a href="https://www.instagram.com/p/CAf0bEbHdml/" rel="nofollow" target="_blank">
+					<a href="https://www.instagram.com/p/CAf0bEbHdml/" rel="noopener noreferrer" target="_blank">
 						<img src={fb} alt="facebook-logo"/>
 					</a>
 				</div>

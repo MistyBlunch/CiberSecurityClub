@@ -1,22 +1,35 @@
 import React from 'react'
-
-import Parallax from "./components/Slider/index"
 import NavBar from './components/NavBar/index'
 import Footer from './components/Footer/index'
+import Slider from './components/Slider/index'
+import AllDirective from './components/Directives/AllDirective'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
 
-function App() {
-  return (
-    <div className="App">
-      <NavBar/>
-      <Parallax />
-      {/* 
-        Aquí se agregan los componentes que irán creando, en 
-        este mismo ordem
-      */}
-      <Footer />
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <Router>
+        <div className="App">
+          <NavBar />
+          <Switch>
+            <Route path="/directives" component={AllDirective} />
+            {/* <Route path="/aboutus">
+              <AboutUs />
+            </Route>
+            <Route path="/contact">
+              <Contact />
+            </Route> */}
+            <Route exact path="/" component={Slider} />
+          </Switch>
+          <Footer />
+        </div>
+      </Router>
+    );
+  }
 }
 
 export default App;
-// 
