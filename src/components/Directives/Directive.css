@@ -9,7 +9,7 @@
   display: flex;
   align-items: center;
   position: relative;
-  margin-right: -30px;
+  margin-right: -75px;
 }
 
 .Directive-post-img img {
@@ -18,7 +18,7 @@
 
 .Directive-post {
   width: 100%;
-  max-width: 200px;
+  max-width: 330px;
   padding: 1rem 3rem;
   background-color: #274A4B;
   display: flex;
@@ -27,14 +27,13 @@
 }
 
 .Directive-post-info {
-  font-family: 'Roboto', sans-serif;
   text-align: center;
 }
 
 .Directive-post-title {
   margin: 1rem 0 1.3rem;
-  text-transform: uppercase;
   color: #32B6B1;
+  font-size: 28px;
 }
 
 .Directive-post-text {
@@ -48,22 +47,29 @@
 
 @media (max-width: 600px) {
   .Directive-post {
-    padding: .8rem 1rem;
+    padding: .8rem 1rem .8rem 2rem;
+    max-width: 285px;
   }
 
   .Directive-post-img img {
-    width: 100px;
+    width: 80px;
   }
 
   .Directive-post-title {
-    font-size: 18px;
+    font-size: 20px;
+    margin-bottom: .5rem;
   }
 
   .Directive-post-text {
-    font-size: 14px;
+    font-size: 13px;
+    margin-bottom: .5rem;
+  }
+
+  .Directive-post-date {
+    font-size: 12px;
   }
 
   .Directive-post-img {
-    margin-right: -40px;
+    margin-right: -95px;
   }
 }

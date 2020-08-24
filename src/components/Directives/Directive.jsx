@@ -5,7 +5,7 @@ export default function Directive(props) {
   return (
   <div className="Directive-post-div">
     <div className="Directive-post-img">
-      <img src={require("" + props.img)} alt=""/>
+      <img src={require("" + props.image)} alt=""/>
     </div>
     <div className="Directive-post">
       <div className="Directive-post-info">

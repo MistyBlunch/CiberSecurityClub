@@ -7,8 +7,8 @@ import { Link } from "react-router-dom";
 function NavBar(){
 	return(
 		<div className="csec navbar-fixed" >
-			<nav className="backgroundColor">
-				<div className="csec nav-wrapper backgroundColor">
+			<nav>
+				<div className="csec nav-wrapper">
 					<img src={logo} alt="logo" className="iconSize"/>
 					<Link to="/" className="brand-logo">
 						CyberSecurity Club
@@ -16,7 +16,7 @@ function NavBar(){
 					<a href="#!" data-target="mobile-demo" className="sidenav-trigger right"><i className="material-icons">menu</i></a>
 					<ul className="right hide-on-med-and-down">
 						<li className="active">
-							<Link to="/directives">Directives</Link>
+							<Link to="/teams">Teams</Link>
 						</li>
 						<li className="active">
 							<Link to="/aboutus">About us</Link>

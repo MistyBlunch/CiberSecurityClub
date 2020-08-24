@@ -16,7 +16,7 @@ class App extends React.Component {
         <div className="App">
           <NavBar />
           <Switch>
-            <Route path="/directives" component={AllDirective} />
+            <Route path="/teams" component={AllDirective} />
             {/* <Route path="/aboutus">
               <AboutUs />
             </Route>
