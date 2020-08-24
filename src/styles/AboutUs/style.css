@@ -1,0 +1,37 @@
+section.aboutus {
+  background-image: url('../../images/background/background.svg');
+}
+
+.aboutus-wrapper {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.aboutus .title {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.aboutus .title h1 {
+  color: #ffffff;
+  font-size: 38px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.aboutus .functions {
+  grid-row-start: 2;
+  text-align: center;
+}
+
+.aboutus .functions h2 {
+  color: #ffffff;
+  font-size: 28px;
+}
+
+@media screen and (max-width: 920px){
+  .aboutUs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

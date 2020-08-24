@@ -14,3 +14,9 @@ code {
 .App {
   padding-bottom: 10vh;
 }
+
+.container {
+  width: 1140px;
+  max-width: 100%;
+  margin: auto;
+}

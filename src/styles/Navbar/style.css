@@ -9,8 +9,16 @@
 	margin: 0 2rem;
 }
 
+.csec.nav-wrapper li a {
+	font-size: 1.3rem;
+}
+
 .csec.nav-wrapper .hide-on-med-and-down li:last-child a{
 	padding-right: 0;
+}
+
+.csec.nav-wrapper .sidenav-trigger i {
+	line-height: 10vh;
 }
 
 .iconSize{
@@ -63,7 +71,7 @@
 	}
 
 	.csec .brand-logo {
-		font-size: 22px;
+		font-size: 1.4rem;
 		left: 1.7rem;
 	}
 

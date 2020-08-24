@@ -1,9 +1,9 @@
-.Directive-post-div {
+.team-post-div {
   display: flex;
   align-items: center;
 }
 
-.Directive-post-img {
+.team-post-img {
   width: 70%;
   object-fit: cover;
   display: flex;
@@ -12,11 +12,11 @@
   margin-right: -75px;
 }
 
-.Directive-post-img img {
+.team-post-img img {
   width: 132px;
 }
 
-.Directive-post {
+.team-post {
   width: 100%;
   max-width: 330px;
   padding: 1rem 3rem;
@@ -26,50 +26,50 @@
   border-radius: 8px;
 }
 
-.Directive-post-info {
+.team-post-info {
   text-align: center;
 }
 
-.Directive-post-title {
+.team-post-title {
   margin: 1rem 0 1.3rem;
   color: #32B6B1;
   font-size: 28px;
 }
 
-.Directive-post-text {
+.team-post-text {
   color: white;
   margin-bottom: 2rem;
 }
 
-.Directive-post-date {
+.team-post-date {
   color: #32B6B1;
 }
 
 @media (max-width: 600px) {
-  .Directive-post {
+  .team-post {
     padding: .8rem 1rem .8rem 2rem;
     max-width: 285px;
   }
 
-  .Directive-post-img img {
+  .team-post-img img {
     width: 80px;
   }
 
-  .Directive-post-title {
+  .team-post-title {
     font-size: 20px;
     margin-bottom: .5rem;
   }
 
-  .Directive-post-text {
+  .team-post-text {
     font-size: 13px;
     margin-bottom: .5rem;
   }
 
-  .Directive-post-date {
+  .team-post-date {
     font-size: 12px;
   }
 
-  .Directive-post-img {
+  .team-post-img {
     margin-right: -95px;
   }
 }

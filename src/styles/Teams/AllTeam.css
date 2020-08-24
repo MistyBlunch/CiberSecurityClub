@@ -1,32 +1,25 @@
-.container {
-  width: 1140px;
-  max-width: 100%;
-  margin: auto;
-  
-}
-
-.container.directives {
+section.teams {
   display: flex;
   justify-content: center;
   padding: 3rem 0;
-  background-image: url('./images/background.svg');
+  background-image: url('../../images/background/background.svg');
 }
 
-.Directives {
+.teams-wrapper {
   display: grid;
   grid-row-gap: 20px;
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 80px;
 }
 
-.Directive-item {
+.team-item {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
 
 @media screen and (max-width: 868px){
-  .Directives {
+  .teams {
     grid-template-columns: repeat(1, 1fr);
   }
 }

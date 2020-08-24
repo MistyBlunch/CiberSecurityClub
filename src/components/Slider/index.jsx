@@ -1,7 +1,7 @@
 import React from 'react'
 import M from 'materialize-css'
 import 'materialize-css/dist/css/materialize.min.css'
-import './style.css'
+import '../../styles/Slider/style.css'
 import sliders from './sliders.json'
 
 export default class Slider extends React.Component {
@@ -18,10 +18,11 @@ export default class Slider extends React.Component {
         <ul className="slides">
           {sliders.map(e => 
             <li key={e.id}>
-              <img src={require("" + e.image)} alt="img_1" />
+              <img src={require("" + e.image)} alt="images" />
               <div className="caption csec-caption">
                 <h1 className="header center">
                   {e.text}
+                  {e.image}
                 </h1>
               </div>
             </li>

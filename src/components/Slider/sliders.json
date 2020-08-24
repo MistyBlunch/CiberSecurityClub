@@ -1,7 +1,7 @@
 [
   {
     "id" : 0,
-    "image" : "./images/origin3.png",
+    "image" : "../../images/Slider/origin3.png",
     "text" : "Cybersecurity Club is a student organization at the UTEC university",
     "schedule" : "Domingos: 5:00 p.m"
   },
@@ -9,7 +9,7 @@
   {
     "id" : 1,
     "name" : "Competitiva",
-    "image" : "./images/origin2.png",
+    "image" : "../../images/Slider/origin2.png",
     "text" : "Cybersecurity Club is a student organization at the UTEC university",
     "schedule" : "Domingos: 5:00 p.m"
   },
@@ -17,7 +17,7 @@
   {
     "id" : 2,
     "name" : "Web",
-    "image" : "./images/origin1.png",
+    "image" : "../../images/Slider/origin1.png",
     "text" : "Cybersecurity Club is a student organization at the UTEC university",
     "schedule" : "Domingos: 5:00 p.m"
   }

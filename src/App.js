@@ -2,7 +2,8 @@ import React from 'react'
 import NavBar from './components/NavBar/index'
 import Footer from './components/Footer/index'
 import Slider from './components/Slider/index'
-import AllDirective from './components/Directives/AllDirective'
+import AllTeam from './components/Teams/AllTeam'
+import AboutUs from './components/AboutUs/index'
 import {
   BrowserRouter as Router,
   Switch,
@@ -16,14 +17,9 @@ class App extends React.Component {
         <div className="App">
           <NavBar />
           <Switch>
-            <Route path="/teams" component={AllDirective} />
-            {/* <Route path="/aboutus">
-              <AboutUs />
-            </Route>
-            <Route path="/contact">
-              <Contact />
-            </Route> */}
             <Route exact path="/" component={Slider} />
+            <Route path="/teams" component={AllTeam} />
+            <Route path="/aboutus" component={AboutUs} />
           </Switch>
           <Footer />
         </div>
