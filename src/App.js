@@ -4,6 +4,7 @@ import Footer from './components/Footer/index'
 import Slider from './components/Slider/index'
 import AllTeam from './components/Teams/AllTeam'
 import AboutUs from './components/AboutUs/index'
+import Contact from './components/Contact/index'
 import {
   BrowserRouter as Router,
   Switch,
@@ -19,6 +20,7 @@ class App extends React.Component {
           <Switch>
             <Route exact path="/" component={Slider} />
             <Route path="/teams" component={AllTeam} />
+            <Route path="/contact" component={Contact} />
             <Route path="/aboutus" component={AboutUs} />
           </Switch>
           <Footer />
