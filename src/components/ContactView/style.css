@@ -1,0 +1,50 @@
+.container{
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.container-flag{
+	position:relative;
+	width: 650px;
+
+}
+
+.contact{
+	background-color: #274A4B;
+	color: white;
+	box-shadow: 5px 5px 10px black;
+	display: inline-block;
+	padding: 10px 30px;
+	font-size: 20px;
+	border-radius: 10px;
+	position: absolute;
+ 	bottom:0;
+	right:0;
+}
+.contact a{
+	color: #39CAC4;
+}
+	background-color: #127675;
+
+.logo{
+	display: block;
+	-webkit-transform: rotate(-10.41deg)
+}
+
+.grid{
+    display: grid;
+
+    grid-template-columns: auto auto auto;
+
+    grid-gap: 10px;
+
+    padding: 10px;
+}
+/*
+.grid spam {
+    text-align: left;
+}
+*/

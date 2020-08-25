@@ -7,17 +7,20 @@ div.slider.fullscreen.csec-princ-slider {
   filter: brightness(0.4);
 }
 
-.csec-princ-slider li {
+.csec-princ-slider .slides li {
   display: flex;
   align-items: center;
+  opacity: 1;
 }
 
 .csec-princ-slider li .caption.csec-caption {
   top: auto;
+  opacity: 1;
 }
 
 .csec-princ-slider li .caption.csec-caption h1 {
   font-size: 45px;
+  white-space: pre-line;
 }
 
 .csec-princ-slider .indicators .indicator-item {
@@ -25,13 +28,13 @@ div.slider.fullscreen.csec-princ-slider {
   width: 12px;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 993px) {
   .csec-princ-slider li .caption.csec-caption h1 {
     font-size: 35px;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 601px) {
   .csec-princ-slider li .caption.csec-caption {
     left: auto;
     width: 100%;

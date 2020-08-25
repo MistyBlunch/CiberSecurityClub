@@ -4,12 +4,11 @@
 }
 
 .team-post-img {
-  width: 70%;
   object-fit: cover;
   display: flex;
   align-items: center;
   position: relative;
-  margin-right: -75px;
+  margin-right: -35px;
 }
 
 .team-post-img img {
@@ -45,6 +44,12 @@
   color: #32B6B1;
 }
 
+@media (min-width: 1200px) {
+  .team-post-img {
+    margin-right: -40px;
+  }
+}
+
 @media (max-width: 600px) {
   .team-post {
     padding: .8rem 1rem .8rem 2rem;
@@ -71,5 +76,6 @@
 
   .team-post-img {
     margin-right: -95px;
+    width: 70%;
   }
 }

@@ -1,5 +1,9 @@
 section.aboutus {
   background-image: url('../../images/background/background.svg');
+  padding: 3rem 0;
+  height: 80vh;
+  display: flex;
+  align-items: center;
 }
 
 .aboutus-wrapper {
@@ -9,8 +13,8 @@ section.aboutus {
 }
 
 .aboutus .title {
-  grid-column-start: 2;
-  grid-column-end: 3;
+  width: 70%;
+  margin: auto;
 }
 
 .aboutus .title h1 {
@@ -18,6 +22,7 @@ section.aboutus {
   font-size: 38px;
   text-align: center;
   font-weight: bolder;
+  margin-top: 0;
 }
 
 .aboutus .functions {
@@ -25,13 +30,42 @@ section.aboutus {
   text-align: center;
 }
 
-.aboutus .functions h2 {
+.aboutus .functions h4 {
   color: #ffffff;
-  font-size: 28px;
+  font-size: 22px;
+  font-weight: bold;
 }
 
-@media screen and (max-width: 920px){
-  .aboutUs {
-    grid-template-columns: repeat(2, 1fr);
+@media only screen and (max-width: 993px) {
+  .aboutus .title h1 {
+    font-size: 30px;
   }
+
+  .aboutus .functions h4 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 601px) {
+  section.aboutus {
+    height: 100%;
+  }
+
+  .aboutus-wrapper {
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .aboutus .functions {
+    grid-column-start: 2;
+    grid-row-start: auto;
+  }
+
+  .aboutus .title {
+    width: 100%;
+  }
+
+  .aboutus .title h1 {
+    font-size: 25px;
+  }
+
 }

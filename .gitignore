@@ -24,3 +24,7 @@ yarn-error.log*
 
 #HB
 .idea
+
+#vim
+*.swp
+*.swo

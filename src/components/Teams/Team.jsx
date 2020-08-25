@@ -5,7 +5,7 @@ export default function Team(props) {
   return (
   <div className="team-post-div">
     <div className="team-post-img">
-      <img src={require("" + props.image)} alt=""/>
+      <img src={require("../../" + props.image)} alt=""/>
     </div>
     <div className="team-post">
       <div className="team-post-info">

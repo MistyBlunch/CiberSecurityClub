@@ -2,7 +2,7 @@
   {
     "id" : 0,
     "name" : "Pentesting",
-    "image" : "../../images/Teams/pentesting.svg",
+    "image" : "images/Teams/pentesting.svg",
     "content" : "Entrenamos todos los domingos para Google, DEFOM CTF, Facebook CTF y más",
     "schedule" : "Domingos: 5:00 p.m"
   },
@@ -10,7 +10,7 @@
   {
     "id" : 1,
     "name" : "Competitiva",
-    "image" : "../../images/Teams/competitiva.svg",
+    "image" : "images/Teams/competitiva.svg",
     "content" : "Entrenamos todos los domingos para Google, DEFOM CTF, Facebook CTF y más",
     "schedule" : "Domingos: 5:00 p.m"
   },
@@ -18,7 +18,7 @@
   {
     "id" : 2,
     "name" : "Web",
-    "image" : "../../images/Teams/web.svg",
+    "image" : "images/Teams/web.svg",
     "content" : "Entrenamos todos los domingos para Google, DEFOM CTF, Facebook CTF y más",
     "schedule" : "Domingos: 5:00 p.m"
   },
@@ -26,7 +26,7 @@
   {
     "id" : 3,
     "name" : "Análisis de Malware",
-    "image" : "../../images/Teams/analisis_malware.svg",
+    "image" : "images/Teams/analisis_malware.svg",
     "content" : "Entrenamos todos los domingos para Google, DEFOM CTF, Facebook CTF y más",
     "schedule" : "Domingos: 5:00 p.m"
   },
@@ -34,7 +34,7 @@
   {
     "id" : 4,
     "name" : "Estrategia y Políticas",
-    "image" : "../../images/Teams/politicas.svg",
+    "image" : "images/Teams/politicas.svg",
     "content" : "Entrenamos todos los domingos para Google, DEFOM CTF, Facebook CTF y más",
     "schedule" : "Domingos: 5:00 p.m"
   },
@@ -42,7 +42,7 @@
   {
     "id" : 5,
     "name" : "Marketing",
-    "image" : "../../images/Teams/marketing.svg",
+    "image" : "images/Teams/marketing.svg",
     "content" : "Entrenamos todos los domingos para Google, DEFOM CTF, Facebook CTF y más",
     "schedule" : "Domingos: 5:00 p.m"
   }

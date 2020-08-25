@@ -18,11 +18,10 @@ export default class Slider extends React.Component {
         <ul className="slides">
           {sliders.map(e => 
             <li key={e.id}>
-              <img src={require("" + e.image)} alt="images" />
+              <img src={require("../../" + e.image)} alt="images" />
               <div className="caption csec-caption">
                 <h1 className="header center">
                   {e.text}
-                  {e.image}
                 </h1>
               </div>
             </li>
