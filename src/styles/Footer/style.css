@@ -11,7 +11,6 @@
 
 .csec .footer-copyright {
 	width: 100%;
-	margin: 0 2rem;
 	display: flex;
 	justify-content: space-between;
 }
@@ -47,10 +46,6 @@
 }
 
 @media (max-width: 601px) {
-	.csec .footer-copyright {
-		margin: 0 1rem;
-	}
-
 	.csec .footer-copyright h6 {
 		font-size: 13px;
 	}

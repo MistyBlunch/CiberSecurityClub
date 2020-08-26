@@ -7,8 +7,8 @@ import sliders from './sliders.json'
 export default class Slider extends React.Component {
   componentDidMount() {
     (function() {
-      var elems = document.querySelectorAll('.slider');
-      var instances = M.Slider.init(elems, { interval: 30000});
+      let elems = document.querySelectorAll('.slider');
+      let instances = M.Slider.init(elems, { interval: 30000});
     })()
   }
 
