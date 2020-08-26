@@ -1,5 +1,5 @@
 section.contact {
-	background-image: url('../../images/background/background.svg');
+	background-image: url('../../images/general/background.svg');
   padding: 3rem 0;
   height: 80vh;
   display: flex;
@@ -12,6 +12,9 @@ section.contact {
 	justify-content: space-between;
 	align-items: center;
 	position: relative;
+	max-width: 760px;
+	width: 100%;
+	margin: auto;
 }
 
 .container-wrapper .contact{
@@ -39,7 +42,11 @@ section.contact {
 	padding: 10px;
 }
 
-@media only screen and (max-width: 993px) {
+.contact-content.mb {
+  display: none;
+}
+
+@media (max-width: 993px) {
 	.container-wrapper .contact{
 		width: 480px;
 	}
@@ -49,13 +56,14 @@ section.contact {
 	}
 }
 
-@media only screen and (max-width: 601px) {	
+@media (max-width: 601px) {	
 	.container-wrapper {
 		flex-direction: column;
 	}
 
 	.container-wrapper .contact {
-		width: 100%;
+		width: 60%;
+		position: relative;
 	}
 
 	.contact .grid span {
@@ -66,7 +74,18 @@ section.contact {
 		width: 300px;
 	}
 
-	.container-wrapper .contact {
-		position: relative;
-	}
+	.contact .grid.contact-content {
+    display: none;
+  }
+
+  .contact-content.mb {
+    display: flex;
+    justify-content: space-around;
+		align-items: center;
+  }
+
+  .contact-content.mb a img {
+		width: 25px;
+		display: flex;
+  }
 }

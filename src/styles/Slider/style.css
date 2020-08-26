@@ -28,13 +28,13 @@ div.slider.fullscreen.csec-princ-slider {
   width: 12px;
 }
 
-@media only screen and (max-width: 993px) {
+@media (max-width: 993px) {
   .csec-princ-slider li .caption.csec-caption h1 {
     font-size: 35px;
   }
 }
 
-@media only screen and (max-width: 601px) {
+@media (max-width: 601px) {
   .csec-princ-slider li .caption.csec-caption {
     left: auto;
     width: 100%;

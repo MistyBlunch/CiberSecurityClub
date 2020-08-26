@@ -2,7 +2,7 @@ section.teams {
   display: flex;
   justify-content: center;
   padding: 3rem 0;
-  background-image: url('../../images/background/background.svg');
+  background-image: url('../../images/general/background.svg');
 }
 
 

@@ -6,10 +6,10 @@ import sliders from './sliders.json'
 
 export default class Slider extends React.Component {
   componentDidMount() {
-    document.addEventListener('DOMContentLoaded', function() {
+    (function() {
       var elems = document.querySelectorAll('.slider');
       var instances = M.Slider.init(elems, { interval: 30000});
-    })
+    })()
   }
 
   render() {
@@ -19,7 +19,7 @@ export default class Slider extends React.Component {
           {sliders.map(e => 
             <li key={e.id}>
               <img src={require("../../" + e.image)} alt="images" />
-              <div className="caption csec-caption">
+              <div className="caption csec-caption container">
                 <h1 className="header center">
                   {e.text}
                 </h1>

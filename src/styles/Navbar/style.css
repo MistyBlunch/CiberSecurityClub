@@ -5,12 +5,8 @@
 	align-items: center;
 }
 
-.csec.nav-wrapper {
-	margin: 0 2rem;
-}
-
 .csec.nav-wrapper li a {
-	font-size: 1.3rem;
+	font-size: 1.2rem;
 }
 
 .csec.nav-wrapper .hide-on-med-and-down li:last-child a{
@@ -19,6 +15,10 @@
 
 .csec.nav-wrapper .sidenav-trigger i {
 	line-height: 10vh;
+}
+
+.csec .brand-logo {
+	font-size: 2rem;
 }
 
 .iconSize{
@@ -34,28 +34,72 @@
 	height: 10vh;
 }
 
-/* Edit hamburger menu*/
-.csec .sidenav {
-	background-color: #000000;
-	border-right: 1px solid #ffffff	;
+.ham-menu {
+	float: right;
+	display: none;
 }
 
-.csec .sidenav li {
-	padding: 0 1.2rem;
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.1s;
 }
 
-.csec .sidenav li a {
-	color: #ffffff;
-	padding: 0;
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
 }
 
-.sidenav-overlay {
-	opacity: 0;
-	left: 20px;
-	z-index: 0;
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.1s;
 }
 
-@media only screen and (max-width: 992px) {
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+@media (max-width: 1223px) {
+  .navbar .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 993px) {
+	.ham-menu {
+		display: inline-flex;
+	}
+
 	.csec .brand-logo {
 		left: 0;
     transform: translateX(0);
@@ -67,11 +111,7 @@
 	}
 }
 
-@media only screen and (max-width: 600px) {
-	.csec.nav-wrapper {
-		margin: 0 1rem;
-	}
-
+@media (max-width: 601px) {
 	.csec .brand-logo {
 		font-size: 1.4rem;
 		left: 1.7rem;

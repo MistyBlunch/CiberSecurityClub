@@ -1,6 +1,9 @@
 import React from 'react'
 import '../../styles/Contact/style.css'
 import flag from '../../images/Contact/flag.svg'
+import mail from '../../images/general/email.png'
+import ig from '../../images/general/instagram.svg'
+import fb from '../../images/general/facebook.svg'
 
 function Contact(){
   return(
@@ -9,10 +12,10 @@ function Contact(){
 				<div className="container-wrapper">
 					<img  className="flag" src={flag} alt="CyberSecurity Flag"/>
 					<div className="contact">
-						<div className="grid">
+						<div className="grid contact-content">
 							<span>Email</span>
 							<span>➡ </span>
-							<span><a href="https://www.google.com" target="_blank">cybersecurity@utec.edu.pe</a></span>
+							<span><a href="mailto:cybersecurity@utec.edu.pe" target="_blank">cybersecurity@utec.edu.pe</a></span>
 
 							<span>Instagram</span>
 							<span>➡ </span>
@@ -22,6 +25,17 @@ function Contact(){
 							<span>➡ </span>
 							<span><a href="https://www.google.com" target="_blank">Ciberseguridad Utec</a></span>
 						</div>
+						<div className="contact-content mb">
+								<a href="mailto:cybersecurity@utec.edu.pe" target="_blank">
+									<img src={mail} alt="mail"/>
+								</a>
+								<a href="https://www.google.com" target="_blank">
+									<img src={ig} alt="mail"/>
+								</a>
+								<a href="https://www.google.com" target="_blank">
+									<img src={fb} alt="mail"/>
+								</a>
+							</div>
 					</div>
 				</div>
       </div>

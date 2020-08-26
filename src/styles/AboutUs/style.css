@@ -1,5 +1,5 @@
 section.aboutus {
-  background-image: url('../../images/background/background.svg');
+  background-image: url('../../images/general/background.svg');
   padding: 3rem 0;
   height: 80vh;
   display: flex;
@@ -36,7 +36,7 @@ section.aboutus {
   font-weight: bold;
 }
 
-@media only screen and (max-width: 993px) {
+@media (max-width: 993px) {
   .aboutus .title h1 {
     font-size: 30px;
   }
@@ -46,7 +46,7 @@ section.aboutus {
   }
 }
 
-@media only screen and (max-width: 601px) {
+@media (max-width: 601px) {
   section.aboutus {
     height: 100%;
   }
