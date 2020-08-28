@@ -9,6 +9,7 @@ export default class Slider extends React.Component {
     (function() {
       let elems = document.querySelectorAll('.slider');
       let instances = M.Slider.init(elems, { interval: 30000});
+      console.log(`h${instances.length} 5tr4ng3r!`)
     })()
   }
 

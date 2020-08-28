@@ -36,8 +36,8 @@
 .ham-menu {
 	float: right;
   display: none;
-  font-size:"20px";
-  cursor:"pointer";
+  font-size: 20px;
+  cursor: pointer;
 }
 
 .overlay {
