@@ -1,7 +1,16 @@
 # CyberScurity Club Webpage :heartbeat:
+---
+Requirements:
+* Node v.10
 
-## Available Scripts
-### `npm start`
+How to run:
+```
+npm i
+```
+
+```
+npm run start
+```
 
 ![Screenshot 2023-12-31 011315](https://github.com/MistyBlunch/CyberSecurityClub/assets/29315728/4baaae8a-0fe8-42c5-9088-1291eedd460b)
 ![Screenshot 2023-12-31 011351](https://github.com/MistyBlunch/CyberSecurityClub/assets/29315728/cb502c4a-f0db-4e46-bc45-b98ae00b3417)
