@@ -1,4 +1,4 @@
-# CyberScurity Club Webpage :heartbeat:
+# Cyber Security Club Webpage :heartbeat:
 
 Requirements:
 * Node v.10
